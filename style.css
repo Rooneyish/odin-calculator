@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0C359E;
+}
+
+h1{
+    color: #F6F5F5;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.display{
+    width: 450px;
+    height: 100px;
+    background-color: #F6F5F5;
+    margin: auto;
+    border: 5px solid #EE99C2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #0C359E;
+}
+.display p{
+    font-size: 60px;
+    font-family: "Righteous", sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row div{
+    height: 100px;
+    width: 100px;
+    background-color:#FFE3CA ;
+    margin: 10px;
+    border-radius: 30px;
+    border: 5px solid #EE99C2;
+    font-family: "Righteous", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #082367;
+    cursor: pointer;
+}
