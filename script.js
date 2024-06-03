@@ -54,7 +54,7 @@ function updateDisplay(value) {
 
 function clearDisplay() {
     let display = document.querySelector(".display");
-    display.innerHTML = "0";
+    display.innerHTML = "";
 }
 
 function setOperator(op) {
